@@ -1,134 +1,117 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400');
-*{  font-family: 'Roboto';
-    font-weight: 400;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+  font-weight: 400;
 }
-.descuento p{
-    background-color: #1CD1B0;
-    font-size: 25px;
-    padding: 3px 20px;
+.descuento p {
+  background-color: #1cd1b0;
+  font-size: 25px;
+  padding: 3px 20px;
 }
-header{
-    background-color: #00669F;
-    border: 1px solid #000000;
-    color: #fff;
-    font-size: 25px;
-    padding: 10px 15x;
-    position: sticky;
-    top: 0;
-    z-index: 1;
+header {
+  border: 1px solid #000000;
+  background-color: #00669f;
+  font-size: 25px;
+  color: #fff;
+  padding: 10px 15x;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-.card{
-    height: 400px;
-    margin-top: 5%;
-    margin-bottom: 20%;
-    width: 27%;
-    position: relative;
-    left: 40%;
-    top: 40px;
-
+.card {
+  width: 300px;
+  top: 40px; /**/
+  margin: 20px auto;
 }
- .card .backImgBatman {
-    background-attachment: scroll;
-    background-image: url("../img/fondobatman.png");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 400px 300px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 200px;
+.card .backImgBatman {
+
+  background-image: url("../img/fondobatman.png");
+  background-size: cover;
+  border-radius:15px 15px 0px 0px;
+  height: 250px;
+  position: relative;
+
 }
 .card .backImgMaravilla {
-    background-attachment: scroll;
-    background-image: url("../img/fondomaravilla.png");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 400px 300px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 200px;
+  background-image: url("../img/fondomaravilla.png");
+  background-size: cover;
+  border-radius:15px 15px 0px 0px;
+  height: 250px;
+  position: relative;
 }
 .card .backImgSuperman {
-    background-attachment: scroll;
-    background-image: url("../img/fondosuper.png");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: 400px 300px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 200px;
+  background-image: url("../img/fondosuper.png");
+  background-size: cover;
+  border-radius:15px 15px 0px 0px;
+  height: 250px;
+  position: relative;
 }
-.contenido{
-    background-color: #F3F3F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    height: 350px;
-    position: relative;
-    text-align: center;
+.contenido {
+
+  text-align: center;
+  background-color: #f3f3f3;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.contenido img{
-    border-radius: 50%;
-    height: 150px;
-    width: 150x;
-    position: absolute;
-    left: 28%;
-    top: -22%;
+.contenido img {
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+        position: absolute;
+        top: -150px;
+        right: 50px;
 }
-h2{
-    padding-top: 78px;
+h2 {
+  padding-top: 78px;
 }
 
 .texto {
-    border: 10px;
-    font-family: Roboto;
-    font-size: 20px;
-    height: 100px;
-    margin-bottom: 10px;
-    padding: 15px 20px;
-    text-align: left;
+  border: 10px;
+  font-family: Roboto;
+  font-size: 20px;
+  padding: 15px 20px;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
-a{
-    background-color:#00669F;
-    border-radius: 7px;
-    color: #F3F3F3;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 40px; 
-    position: relative;
-    bottom: -65px;
+a {
+  background-color: #00669f;
+  border-radius: 7px;
+  color: #f3f3f3;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 40px;
+  margin-bottom: 15%;
 }
 i {
-    color: #CC2424;
-    font-size: 30px;
-    position: relative;
-    top: 20px;
-    left: 10px;
+  color: #cc2424;
+  font-size: 30px;
+  position: absolute;
+  bottom: 80%;
 }
 span {
-    background-color:#00669F;
-    border-radius: 50%;
-    bottom: 300px;
-    color:#fff;
-    font-size: 22px;
-    height: 20px;
-    width: 20px;
-    padding: 20px;
-    position: fixed;
-    right: 50px; 
-    text-align: center;
+  background-color: #00669f;
+  border-radius: 50%;
+  bottom: 300px;
+  color: #fff;
+  font-size: 22px;
+  height: 20px;
+  width: 20px;
+  position: fixed;
+  right: 50px;
+  padding: 20px;
+  text-align: center;
 }
 footer {
-    background-color:#00669F;
-    color: #F3F3F3;
-    font-family: Roboto;
-    font-size: 20px;
-    text-align: center;
-    padding: 17px;
-
+  background-color: #00669f;
+  color: #f3f3f3;
+  font-family: Roboto;
+  font-size: 20px;
+  text-align: center;
+  padding: 17px;
 }
