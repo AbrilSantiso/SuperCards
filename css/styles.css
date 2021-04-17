@@ -10,15 +10,28 @@
   font-size: 25px;
   padding: 3px 20px;
 }
-header {
-  border: 1px solid #000000;
+h1 {
   background-color: #00669f;
-  font-size: 25px;
+  font-size: 30px;
   color: #fff;
-  padding: 10px 15x;
+  padding: 5px 10px;
   position: sticky;
+  bottom: 20px;
   top: 0;
   z-index: 1;
+}
+.navegador {
+  background-color: #001D2D;
+  color: white;
+  font-size: 16px;
+  text-align: right;
+  text-decoration: none;
+  padding: 5px;
+ 
+}
+.logoTienda {
+  position: relative;
+  top: 10px;
 }
 
 .card {
@@ -78,7 +91,7 @@ h2 {
   margin-bottom: 10px;
 }
 
-a {
+.verMas {
   background-color: #00669f;
   border-radius: 7px;
   color: #f3f3f3;
