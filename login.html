@@ -11,7 +11,7 @@
     <!--<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
-    <title>Contacto</title>
+    <title>Login</title>
 </head>
 
 <body>
@@ -23,28 +23,21 @@
     </header>
     <main>
         <div class="contacto">
-            <h3 class="contacto">Contacto</h3>
+            <h3 class="contacto">Login</h3>
             <form action="contacto.html" method="POST">
                 <p>
-                    <label for="nombreApellido"></label>
-                    <input type="text" name="nombreApellido" id="nombreApellido" placeholder=" Nombre y Apellido"
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder=" Usuario" required>
+
+                </p>
+                <p>
+                    <label for="password"></label>
+                    <input type="password" name="password" id="password" placeholder=" Contraseña"
                         required>
                 </p>
-
-                <p>
-                    <label for="email"></label>
-                    <input type="email" name="email" id="email" placeholder=" Email" required>
-
-                </p>
-
-                <p>
-                    <label for="mensaje"></label>
-                    <textarea id="mensaje" required></textarea>
-
-                </p>
-                <input class="botonGris" type="reset" value="Resetear">
-                <input  class="botonVerde" type="submit" value="Enviar">
+                <input class="log" type="submit" value="Entrar">
             </form>
+            <a class="linkAlReg" href="registros.html">¿No tienes una cuenta? Registrarme</a> 
         </div>
     </main>
     </main>

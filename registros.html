@@ -10,8 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla&display=swap" rel="stylesheet">
     <!--<link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
 
-    <title>Contacto</title>
+    <title>Registro</title>
 </head>
 
 <body>
@@ -22,9 +24,9 @@
         <h1><img class="logoTienda" src="img/fototienda.png">Super Heroes Tienda</h1>
     </header>
     <main>
-        <div class="contacto">
-            <h3 class="contacto">Contacto</h3>
-            <form action="contacto.html" method="POST">
+        <div class="registro">
+            <h3 class="registro">Registro</h3>
+            <form action="login.html" method="POST">
                 <p>
                     <label for="nombreApellido"></label>
                     <input type="text" name="nombreApellido" id="nombreApellido" placeholder=" Nombre y Apellido"
@@ -36,15 +38,25 @@
                     <input type="email" name="email" id="email" placeholder=" Email" required>
 
                 </p>
-
                 <p>
-                    <label for="mensaje"></label>
-                    <textarea id="mensaje" required></textarea>
-
+                    <label for="password"></label>
+                    <input type="password" name="password" id="password" placeholder=" Contraseña"
+                        required>
                 </p>
-                <input class="botonGris" type="reset" value="Resetear">
-                <input  class="botonVerde" type="submit" value="Enviar">
+                <p>
+                    <label for="pais"></label>
+                    <select name="pais" id="pais" placeholder=" País"
+                        required>
+                        <option value="Argentina">País</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Argentina">Colombia</option>
+                        <option value="Argentina">Brasil</option>
+                    </select>
+                </p>
+                <input  class="botonGris" type="reset" value="Resetear">
+                <input  class="botonVerde" type="submit" value="Entrar">
             </form>
+            <a class="linkAlLog"href="login.html">¿Ya tenes una cuenta? Ingresar</a> 
         </div>
     </main>
     </main>
