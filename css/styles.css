@@ -218,7 +218,7 @@ i {
   position: absolute;
   bottom: 80%;
 }
-span {
+ .botonMas {
   background-color: #00669f;
   border-radius: 50%;
   bottom: 300px;
