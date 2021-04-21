@@ -239,7 +239,6 @@ footer {
   text-align: center;
   padding: 17px;
   position: absolute;
-  bottom: 0;
+  bottom: -1700px;
   width: 100%;
-
 }
