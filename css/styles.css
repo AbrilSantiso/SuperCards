@@ -15,9 +15,12 @@ h1 {
   font-size: 30px;
   color: #fff;
   padding: 5px 10px;
+}
+header {
   position: sticky;
   top: 0;
   z-index: 1;
+  box-shadow: 0 10px 7px rgba(0, 0, 0, 0.25);
 }
 .navegador {
   background-color: #001D2D;
@@ -98,8 +101,7 @@ textarea {
   font-style: bold;
   position: absolute;
   left:300px;
-  bottom: 1px;
-  margin: 20px;
+  margin-left: 20px;;
   width: 300px;
 }
 
@@ -136,6 +138,7 @@ nav a {
   padding:10px;
   color: white;
   text-decoration: none;
+  position: sticky;
 }
 .logoTienda {
   position: relative;
@@ -236,7 +239,7 @@ footer {
   text-align: center;
   padding: 17px;
   position: absolute;
-  bottom: -250%;
+  bottom: 0;
   width: 100%;
 
 }
