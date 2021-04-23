@@ -1,0 +1,47 @@
+a.linkAlLog {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    position: relative;
+    top: 200px;
+    left: 30%;
+  }
+  .registro {
+   width: 300px;
+   margin: 30px auto;
+  }
+  input {
+    width: 300px;
+    margin: 30px auto;
+  }
+  .mainReg {
+    height: 150vh
+    ;
+  }
+  input.botonVerde {
+    background-color: #1CD1B0;
+    border-radius: 25px;
+    border: 0px;
+    display: inline;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    position: relative;
+    left: 200px;
+    top: 90px;
+    margin-left: 20px;;
+    width: 300px;
+  }
+  
+  input.botonGris {
+    background-color: #888888;
+    border-radius: 25px;
+    border: 0px;
+    color:white;
+    display: inline;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    position: relative;
+    width: 300px;
+  }
