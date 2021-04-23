@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400");
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
 @import url("./registro.css");
+@import url("./contacto.css");
  * {margin: 0;
   padding: 0;
   font-family: "Roboto";
@@ -71,13 +72,7 @@ input {
    top: 200px;
    right: 100px;
 }
-textarea {
-  height: 251px;
-  width: 620px;
-  margin-top: 20px;
-  margin-bottom: 47px;
-  
-}
+
 .log {
   background-color: #1CD1B0;
   border-radius: 25px;
@@ -91,15 +86,14 @@ textarea {
   width: 620px;
   right:1px;
   }
-
-a.linkAlReg {
-  font-family: 'Karla', sans-serif;
-  font-weight: 400;
-  font-style: bold;
-  position: absolute;
-  left:45%;
-  top: 99%
-}
+  a.linkAlReg {
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    position: absolute;
+    left:45%;
+    top: 99%
+  }
 
 nav a {
   padding:10px;
