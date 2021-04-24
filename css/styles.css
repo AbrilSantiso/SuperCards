@@ -39,6 +39,9 @@ header {
 body {
   height: 100%;
 }
+main {
+  height: 120vh;
+}
 h3 {
   color: #333333;
   line-height: 72px;
@@ -92,14 +95,6 @@ h2 {
   padding-top: 78px;
 }
 
-.texto {
-  border: 10px;
-  font-family: Roboto;
-  font-size: 20px;
-  padding: 15px 20px;
-  text-align: left;
-  margin-bottom: 10px;
-}
  span:hover>a{
   background-color:#001D2D;
   transition: .6s;

@@ -42,14 +42,37 @@
           top: -150px;
           right: 50px;
   }
+  
+.texto {
+  border: 10px;
+  font-family: Roboto;
+  font-size: 20px;
+  padding: 15px 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+#maravillaTexto {
+  height: 197px;
+}
+#supermanTexto {
+  height: 197px;
+}
+
   #batmanCard {
-      
       position: relative;
-      right: 30%;
-      
+      left: 10%;
+      display: inline-block;
+   
   }
 
 #maravillaCard {
- 
-   
+ display: inline-block;
+ position: relative;
+ left: 15% ;
+}
+
+#supermanCard {
+  display: inline-block;
+  position: relative;
+  left: 20% ;
 }
