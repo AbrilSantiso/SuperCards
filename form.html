@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Añadi tu Super!</title>
 </head>
-<body>
+<body class="bodyForm">
     <div class="descuento">
         <p>20% de descuento en todos los productos!</p>
     </div>
@@ -20,5 +20,81 @@
             </nav>
         </header>
     </header>
+        <main class="mainForm">
+            <h3 class="textoPrincipalForm">Añadi tu super!</h3>
+            <p class="subt">Agrega tu personaje favorito completando las opciones</p>
+                <form action="/registro" method="POST">
+                  <div class="row">
+                    <div class="columna1">
+                      <label for="nombre" class="required">Nombre</label>
+                      <input type="text" name="nombre" id="nombre" placeholder="Linterna Verde" oninvalid="setCustomValidty('nombre')" required="" tabindex="1">
+      
+                      <label for="fecha">Fecha</label>
+                      <input type="date" name="fecha" id="fecha" tabindex="3">
+      
+                      <textarea type="descripcion" name="descripcion" id="descripcion" placeholder="Descripción del super" oninvalid="setCustomValidty('descripcion')" required="" tabindex="5" class="required"></textarea>
+                    </div>
+                    <!--
+                    <div class="columna2">
+                      <label for="especie" class="required">Especie</label>
+                      <select name="especie" required="" tabindex="2">
+                        <option value="" selected="" hidden="">Especie</option>
+                        <option value="">Especie 1</option>
+                        <option value="">Especie 3</option>
+                        <option value="">Especie 4</option>
+                        <option value="">Especie 5</option>
+                      </select>
+      
+                      <label for="imagen" class="required">Agregar Foto</label>
+                      <input type="foto" name="imagen" id="imagen" accept=".jpg, .jpeg, .png, .svg" oninvalid="setCustomValidty('imagen')" required="" tabindex="4">
+      
+                      <p>Poderes</p>
+                      
+                      <label for="volar" class="block">
+                        <input type="checkbox" name="poderes" id="volar" value="volar" tabindex="6">
+                        Volar
+                      </label>
+                      <label for="imasuperInteligenciagen" class="block">
+                        <input type="checkbox" name="poderes" id="superInteligencia" value="superInteligencia" tabindex="7">
+                        SuperInteligencia
+                      </label>
+                      <label for="rayo-laser" class="block">
+                        <input type="checkbox" name="poderes" id="rayo-laser" value="rayo-laser" tabindex="8">
+                        Vista de rayo láser
+                      </label>
+                      <label for="billetera-gorda" class="block">
+                        <input type="checkbox" name="poderes" id="billetera-gorda" value="billetera-gorda" tabindex="9">
+                        Billetera gorda
+                      </label>
+      
+                      <span class="divisor-line"></span>
+      
+                      <p>Tipo de personaje</p>
+                      <label for="heroe" class="block">
+                        <input type="radio" name="tipo-personaje" id="heroe" value="heroe" tabindex="10">
+                        Héroe / Heroina
+                      </label>
+                      <label for="villane" class="block">
+                        <input type="radio" name="tipo-personaje" id="villane" value="villane" tabindex="11">
+                        Villano / Villana
+                      </label>  
+                    </div>
+                     -->
+                    <div>
+                      <span><input type="submit" class="input-form" value="Añadir" tabindex="12"></span>
+                    </div>
+               
+                  </div>
+                </form>
+              </div>
+            </div>
+          </section>
+        </main>
+      
+        <footer>
+          <p>Todos los derechos reservados a Abril Santiso ©</p>
+        </footer>
+      
+      
+      </body>
 </body>
-</html>

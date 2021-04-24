@@ -3,6 +3,7 @@
 @import url("./registro.css");
 @import url("./contacto.css");
 @import url("./login.css");
+@import url("./form.css");
  * {margin: 0;
   padding: 0;
   font-family: "Roboto";
@@ -140,6 +141,10 @@ h2 {
   padding: 15px 20px;
   text-align: left;
   margin-bottom: 10px;
+}
+ span:hover>a{
+  background-color:#001D2D;
+  transition: .6s;
 }
 
 .verMas {
