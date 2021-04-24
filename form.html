@@ -26,25 +26,25 @@
                 <form action="/registro" method="POST">
                   <div class="row">
                     <div class="columna1">
-                      <label for="nombre" class="required">Nombre</label>
-                      <input type="text" name="nombre" id="nombre" placeholder="Linterna Verde" oninvalid="setCustomValidty('nombre')" required="" tabindex="1">
+                      <label for="nombre" class="required">*Nombre</label>
+                      <input type="text" name="nombre" id="nombre" placeholder="Linterna Verde" oninvalid="setCustomValidty('nombre')" required tabindex="1">
       
                       <label for="fecha">Fecha</label>
                       <input type="date" name="fecha" id="fecha" tabindex="3">
       
                       <textarea type="descripcion" name="descripcion" id="descripcion" placeholder="Descripción del super" oninvalid="setCustomValidty('descripcion')" required="" tabindex="5" class="required"></textarea>
                     </div>
-                    <!--
+                    
                     <div class="columna2">
-                      <label for="especie" class="required">Especie</label>
-                      <select name="especie" required="" tabindex="2">
+                      <label for="especie" class="especie" required> Especie</label>
+                      <select name="especie"id="especie" class="especie" tabindex="2" required>
                         <option value="" selected="" hidden="">Especie</option>
                         <option value="">Especie 1</option>
                         <option value="">Especie 3</option>
                         <option value="">Especie 4</option>
                         <option value="">Especie 5</option>
                       </select>
-      
+                    <!--
                       <label for="imagen" class="required">Agregar Foto</label>
                       <input type="foto" name="imagen" id="imagen" accept=".jpg, .jpeg, .png, .svg" oninvalid="setCustomValidty('imagen')" required="" tabindex="4">
       
@@ -79,7 +79,7 @@
                         Villano / Villana
                       </label>  
                     </div>
-                     -->
+                  -->
                     <div>
                       <span><input type="submit" class="input-form" value="Añadir" tabindex="12"></span>
                     </div>
