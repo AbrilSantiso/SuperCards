@@ -1,0 +1,55 @@
+.card {
+    width: 300px;
+    top: 40px; 
+    margin: 20px auto;
+  }
+  .card .backImgBatman {
+  
+    background-image: url("../img/fondobatman.png");
+    background-size: cover;
+    border-radius:15px 15px 0px 0px;
+    height: 250px;
+    position: relative;
+  
+  }
+  .card .backImgMaravilla {
+    background-image: url("../img/fondomaravilla.png");
+    background-size: cover;
+    border-radius:15px 15px 0px 0px;
+    height: 250px;
+    position: relative;
+  }
+  .card .backImgSuperman {
+    background-image: url("../img/fondosuper.png");
+    background-size: cover;
+    border-radius:15px 15px 0px 0px;
+    height: 250px;
+    position: relative;
+  }
+  .contenido {
+  
+    text-align: center;
+    background-color: #f3f3f3;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .contenido img {
+          width: 200px;
+          height: auto;
+          border-radius: 50%;
+          position: absolute;
+          top: -150px;
+          right: 50px;
+  }
+  #batmanCard {
+      
+      position: relative;
+      right: 30%;
+      
+  }
+
+#maravillaCard {
+ 
+   
+}
