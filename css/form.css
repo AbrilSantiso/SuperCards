@@ -106,12 +106,10 @@ label {
     padding: 20px;
 
   }
-
   .input-form {
     position: absolute;
-    top: 110%;
-    margin-left: 20px;
-    right: 80px;
+    top: 850px;
+    right: 240px;
     background-color: #1CD1B0;
     border-radius: 23.011px;
     width: 466px;
