@@ -18,6 +18,10 @@
     left: 35%;
     top: 5%
 }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .subt {
     color: white;
@@ -42,29 +46,29 @@ label {
   }
 
 .columna1 {
-    width: 200px;
+    width: 50%;
     display: inline-block;
     text-align: left;
-    margin-top: 50px;
+   /* margin-top: 50px;*/
     position: relative;
     bottom: 100px;
     left: 20%;
   }
 
   .columna2 {
-    width: 100px;
+    width: 50%;
     display: inline-block;
     text-align: left;
-    margin-top: 50px;
+   /* margin-top: 50px;*/
     position: relative;
     left: 300px;
   }
   
   .especie {
-    width: 300px;
-    display: inline-block;
+    width: 50%;
+   /* display: flex;*/
     text-align: left;
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     position: absolute;
     left: 20%;
     bottom: 1px;
@@ -77,13 +81,13 @@ label {
   #descripcion,
   #especie {
     font-family: 'Inter', sans-serif;
-    display: block;
+    /*display: inline-block;*/
     background: #ffffff;
     border: 1.53407px solid rgba(0, 0, 0, 0.1);
     border-radius: 15.3407px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 343px;
+    /*margin-top: 30px;
+    margin-bottom: 30px;*/
+    width: 50%;
     padding: 20px;
   }
   #foto {
@@ -91,18 +95,18 @@ label {
     padding: 10px;
     background: #CECECE;
     border-radius: 5px; 
-    margin-top: 30px;
-    margin-bottom: 30px; 
+    /*margin-top: 30px;
+    margin-bottom: 30px; */
 }
 
   #especie {
-    display: block;
+    /*display: flex;*/
     background: #ffffff;
     border: 1.53407px solid rgba(0, 0, 0, 0.1);
     border-radius: 15.3407px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    width: 200px;
+    /*margin-top: 30px;
+    margin-bottom: 30px;*/
+    width: 100%;
     padding: 20px;
 
   }
