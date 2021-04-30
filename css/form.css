@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 .mainForm {
     background-color:  #00669f;
+    /*display: flex;?*/
     height: 1000px;
     width: 954px;
     border-radius: 49.090110778808594px;
@@ -47,7 +48,7 @@ label {
 
 .columna1 {
     width: 50%;
-    display: inline-block;
+   display: inline-block;/* deberia sacarlo?*/
     text-align: left;
    /* margin-top: 50px;*/
     position: relative;
@@ -57,7 +58,7 @@ label {
 
   .columna2 {
     width: 50%;
-    display: inline-block;
+    display: inline-block;/* deberia sacarlo?*/
     text-align: left;
    /* margin-top: 50px;*/
     position: relative;
@@ -66,7 +67,7 @@ label {
   
   .especie {
     width: 50%;
-   /* display: flex;*/
+   /* display: flex;?*/
     text-align: left;
     /*margin-top: 50px;*/
     position: absolute;
@@ -81,7 +82,7 @@ label {
   #descripcion,
   #especie {
     font-family: 'Inter', sans-serif;
-    /*display: inline-block;*/
+    display: inline-block; /* deberia sacarlo?*/
     background: #ffffff;
     border: 1.53407px solid rgba(0, 0, 0, 0.1);
     border-radius: 15.3407px;
@@ -91,7 +92,7 @@ label {
     padding: 20px;
   }
   #foto {
-    display: block;
+    display: block; /* deberia sacarlo?*/
     padding: 10px;
     background: #CECECE;
     border-radius: 5px; 
